@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-w-dice",
   "description": "WillBot dice function",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -21,8 +21,9 @@
     "koishi": "^4.18.7"
   },
   "dependencies": {
-    "dayjs": "^1.11.13",
-    "echarts": "^5.6.0"
+    "dayjs": "^1.11.18",
+    "echarts": "^5.6.0",
+    "parsecond": "^0.6.0"
   },
   "koishi": {
     "service": {
@@ -39,5 +40,6 @@
     "build": "yarn workspace willbot build w-dice",
     "bump": "yarn workspace willbot bump w-dice",
     "pub": "yarn workspace willbot pub w-dice"
-  }
+  },
+  "repository": "git+https://github.com/willbot-koishi/koishi-plugin-w-dice"
 }
